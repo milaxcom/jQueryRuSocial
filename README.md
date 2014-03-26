@@ -1,4 +1,4 @@
-jQueryRuSocialLike (RUS)
+jQueryRuSocial (RUS)
 ==================
 
 Библиотека позволяет:
