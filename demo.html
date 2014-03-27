@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>jQueryHeadRubber</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta property="og:type" content="news" />
+<meta property="og:url" content="http://test-rusocial.layout.milax.com/demo.html" />
+<meta property="og:title" content="Тестовая страница" />
+<meta property="og:description" content="Sean Connery found fame and fortune as the suave, sophisticated British agent, James Bond." />
+<meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+
+<meta property="og:PageId" content="1" />
+<meta property="og:VkLikeApi" content="4268368" />
+
+<style>
+	body {margin:0; padding:0;}
+	.content { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 100px; width: 100%;}
+	.button-box { margin-bottom: 14px;}
+</style>
+
+</head>
+
+<body>
+	<div class="content">
+        
+		<div class="button-box like-vk"></div>
+		<div class="button-box like-fb"></div>
+		<div class="button-box like-ok"></div>
+		<div class="button-box share-tw"></div>
+
+    </div>
+	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery.rusocial.js"></script>
+    <script type="text/javascript">
+		$(function () {
+			$(".button-box").RuSocial();
+		});
+    </script>
+</body>
+</html>
